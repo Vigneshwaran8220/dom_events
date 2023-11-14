@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+button{
+    color: #fff;
+    /* font-size: larger; */
+    /* font-weight: 900; */
+  margin: 20px;
+  padding:20px;
+  border-radius:30px; 
+  border-color:none; 
+}
+.alert-btn{
+    background-color:#000;
+}
+.prompt-btn{
+    background-color: brown;
+}
+.confirm-btn{
+    background-color:orangered;
+}

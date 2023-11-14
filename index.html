@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom_Events</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Js intro and Dom Events</h1>
+    <button class="alert-btn" onclick="alertFunction('Hey stop')">Alert Me</button>
+    <button class="prompt-btn" onclick="promptFunction()">Prompt Me</button>
+    <button class="confirm-btn" onclick="confirmFunction()">Confirm Me</button>
+    <div class="set-properties">
+        <button class="intervel-btn" onclick="setInterval(intervalExample, 1000)">intervel</button>
+        <button class="timeout-btn" onclick="timeOutExample()">set Timeout</button>
+    </div>
+    <div class="event-properties">
+        <input type="text" placeholder="enter" onclick="clickEvent()"/>
+        <select onchange="changeEvent()">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
